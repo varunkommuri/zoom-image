@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Microsoft VS Code\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Users\vkommuri\AppData\Local\Microsoft\WindowsApps;C:\Users\vkommuri\AppData\Local\Android\Sdk\platform-tools;C:\Users\vkommuri\AppData\Local\Temp;C:\Program Files\nodejs\node_modules\npm;C:\Windows\System32\node_modules\.bin;C:\Users\vkommuri\AppData\Local\Yarn\bin;C:\Users\vkommuri\AppData\Roaming\npm;C:\Users\vkommuri\Desktop\react2.0\hello_world1
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141091:19)
+      at Object.onceWrapper (events.js:298:28)
+      at ClientRequest.emit (events.js:209:13)
+      at TLSSocket.emitRequestTimeout (_http_client.js:690:9)
+      at Object.onceWrapper (events.js:298:28)
+      at TLSSocket.emit (events.js:209:13)
+      at TLSSocket.Socket._onTimeout (net.js:468:8)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~40.0.0",
+      "expo-status-bar": "~1.0.3",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+      "react-native-web": "~0.13.12"
+    },
+    "devDependencies": {
+      "@babel/core": "~7.9.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
